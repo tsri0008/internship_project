@@ -13,5 +13,3 @@ better code than direct coding approaches?
 - Python
 - Codex CLI
 - Pytest
-- Pandas
-- Matplotlib

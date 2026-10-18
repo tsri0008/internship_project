@@ -1,0 +1,120 @@
+========================================
+AGENTFLOWBENCH - EXPERIMENT LOG
+========================================
+
+Experiment: Workflow A - Medium (Run 2)
+Task: Shopping Cart System
+Difficulty: Medium
+Workflow: A (Direct)
+Agent: OpenAI Codex CLI
+Model: GPT-6.1-Sol
+
+========================================
+1. AGENT ACTIONS
+========================================
+
+1. Read TASK.md and cart.py to understand
+   the functional requirements and source code.
+
+2. Inspected the shopping cart implementation
+   and identified numerical edge cases.
+
+3. Modified cart.py:
+   - Added a helper function _as_decimal().
+   - Improved Decimal input validation.
+   - Added checks for non-finite Decimal values.
+   - Improved handling of mixed numeric types.
+   - Updated subtotal calculations.
+   - Updated percentage discount calculations.
+
+4. Attempted to execute functional tests
+   using Python.
+
+5. Python execution failed inside the sandbox
+   because the executable was inaccessible.
+
+6. Attempted to locate alternative Python
+   executables, but execution remained unavailable.
+
+7. Agent reported task completion without
+   successfully executing runtime tests.
+
+========================================
+2. CODE MODIFICATIONS
+========================================
+
+File modified: cart.py
+
+Lines added: 20
+Lines removed: 2
+
+New helper function: _as_decimal()
+
+Other files modified: None reported
+
+Class name preserved: Yes
+Method signatures preserved: Yes
+TASK.md modified: No
+
+========================================
+3. TOOL USAGE
+========================================
+
+File reading: Successful
+File editing: Successful
+Terminal commands: Attempted
+Python execution: Unsuccessful
+Functional testing: Attempted but not completed
+External execution: Not requested
+
+========================================
+4. OBSERVATIONS
+========================================
+
+- The agent independently identified
+  numerical edge cases.
+
+- The agent introduced a helper function
+  to improve numerical consistency.
+
+- The agent attempted testing despite
+  receiving direct workflow instructions.
+
+- Python execution was unavailable
+  inside the sandbox.
+
+- The agent completed its modifications
+  without successful runtime verification.
+
+========================================
+5. EXPERIMENT RESULTS
+========================================
+
+Agent status: Reported complete
+
+Independent Pytest results:
+Passed: Pending
+Failed: Pending
+Pass rate: Pending
+
+Reported execution time: 44 seconds
+
+========================================
+6. LIMITATIONS
+========================================
+
+- Python execution was unavailable
+  inside the sandbox.
+
+- Correctness requires independent
+  Pytest evaluation.
+
+- Starting-code equivalence with the
+  original baseline was not verified.
+
+- A single additional run cannot
+  establish reproducibility.
+
+========================================
+END OF EXPERIMENT LOG
+========================================

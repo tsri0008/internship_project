@@ -1,0 +1,122 @@
+========================================
+AGENTFLOWBENCH - EXPERIMENT LOG
+========================================
+
+Experiment: Workflow B - Medium
+Task: Shopping Cart System
+Difficulty: Medium
+Workflow: B (Structured)
+Agent: OpenAI Codex CLI
+Model: GPT-6.1-Sol
+
+========================================
+1. AGENT ACTIONS
+========================================
+
+STEP 1: ANALYSE
+- Read cart.py and TASK.md.
+- Examined the shopping cart implementation.
+- Identified the responsibilities of the methods.
+
+STEP 2: IDENTIFY PROBLEMS
+Identified:
+- Reversed quantity validation.
+- Incorrect subtotal initialisation.
+- Incorrect percentage discount calculation.
+- Incorrect product listing.
+- Missing input validation.
+- Missing price consistency checks.
+
+STEP 3: PLAN
+- Created an implementation plan before editing.
+- Planned input validation improvements.
+- Planned corrections to calculations.
+- Planned to prevent conflicting prices.
+- Planned to preserve product insertion order.
+
+STEP 4: IMPLEMENT
+- Modified cart.py.
+- Added product name validation.
+- Added price and quantity validation.
+- Added conflicting price protection.
+- Corrected subtotal calculation.
+- Corrected percentage discount calculation.
+- Corrected product listing.
+
+STEP 5: TEST
+- Attempted Python execution.
+- Python executable was inaccessible.
+- Attempted an alternative Python command.
+- Alternative execution also failed.
+- No successful runtime tests.
+
+STEP 6: REVIEW
+- Inspected the modified source code.
+- Reviewed the implementation against TASK.md.
+- Reported that the requirements were satisfied.
+
+STEP 7: REVISE
+- No additional modifications observed after review.
+
+========================================
+2. CODE MODIFICATIONS
+========================================
+
+File modified: cart.py
+
+Lines added: 18
+Lines removed: 7
+
+Class name preserved: Yes
+Method signatures preserved: Yes
+TASK.md modified: No (reported)
+
+========================================
+3. TOOL USAGE
+========================================
+
+File reading: Successful
+File editing: Successful
+Terminal commands: Attempted
+Python execution: Unsuccessful
+Functional testing: Attempted but not completed
+Source code review: Completed
+External execution: Not requested
+
+========================================
+4. EXPERIMENT RESULTS
+========================================
+
+Agent reported completion: Yes
+
+Reported duration: 45 seconds
+
+Independent Pytest:
+Passed: Pending
+Failed: Pending
+Pass rate: Pending
+
+========================================
+5. OBSERVATIONS
+========================================
+
+- The agent identified issues before editing.
+- The agent created an implementation plan.
+- The agent followed a structured development process.
+- The agent attempted runtime verification.
+- Python execution was unavailable in the sandbox.
+- The agent reviewed its implementation.
+- No additional revisions were observed.
+
+========================================
+6. LIMITATIONS
+========================================
+
+- Python execution unavailable inside sandbox.
+- No successful runtime verification.
+- Single experimental run.
+- Independent correctness evaluation pending.
+
+========================================
+END OF EXPERIMENT LOG
+========================================

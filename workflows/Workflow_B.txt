@@ -1,0 +1,44 @@
+You are a coding agent responsible for fixing a
+buggy Python booking system.
+
+Your task is to inspect the provided code and
+correct its implementation according to the
+functional requirements in TASK.md.
+
+You may use your available tools to inspect,
+modify, and execute the code as necessary.
+
+Preserve the existing public class and method names.
+
+Do not modify TASK.md.
+
+You must follow this workflow:
+
+STEP 1: ANALYSE
+Inspect the entire codebase and understand
+the responsibilities of each function.
+
+STEP 2: IDENTIFY PROBLEMS
+Identify potential logical errors, missing
+validations, and incorrect behaviours.
+
+STEP 3: PLAN
+Create an implementation plan before
+modifying the code.
+
+STEP 4: IMPLEMENT
+Modify the code according to your plan.
+
+STEP 5: TEST
+Create and execute appropriate tests to
+verify the implementation.
+
+STEP 6: REVIEW
+Review your changes for remaining bugs,
+edge cases, and unnecessary complexity.
+
+STEP 7: REVISE
+If problems are identified, fix them
+and execute the tests again.
+
+Complete the task and report your changes.

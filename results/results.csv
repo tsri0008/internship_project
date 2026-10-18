@@ -1,0 +1,10 @@
+﻿difficulty,condition,trial,passed,failed,errors,total,pass_rate_pct,pytest_run_seconds,agent_reported_seconds,agent_python_test_attempted,agent_python_test_successful,model,pytest_source_file,agent_log_source_file,assessment
+Easy,Baseline,primary,4,13,0,17,23.53,0.12,,N/A,N/A,N/A,baseline_easy.txt,N/A,Completed independent Pytest evaluation; model claims sourced separately from agent logs
+Easy,Workflow A,primary,17,0,0,17,100.0,0.04,20,Yes,No,GPT-6.1-Sol,workflow_A_easy.txt,agent_activity_log_work_A_easy.txt,Completed independent Pytest evaluation; model claims sourced separately from agent logs
+Easy,Workflow B,primary,17,0,0,17,100.0,0.03,28,Yes,No,GPT-6.1-Sol,workflow_B_easy.txt,agent_activity_log_work_B_easy.txt,Completed independent Pytest evaluation; model claims sourced separately from agent logs
+Medium,Baseline,primary,7,17,0,24,29.17,0.15,,N/A,N/A,N/A,baseline_medium.txt,N/A,Completed independent Pytest evaluation; model claims sourced separately from agent logs
+Medium,Workflow A,primary,24,0,0,24,100.0,0.07,,Yes,No,GPT-6.1-Sol,workflow_A_medium.txt,agent_activity_log_work_A_medium.txt,Completed independent Pytest evaluation; model claims sourced separately from agent logs
+Medium,Workflow B,primary,24,0,0,24,100.0,0.04,45,Yes,No,GPT-6.1-Sol,workflow_B_medium.txt,agent_activity_log_work_B_medium.txt,Completed independent Pytest evaluation; model claims sourced separately from agent logs
+Hard,Baseline,primary,16,23,0,39,41.03,0.16,,N/A,N/A,N/A,baseline_hard.txt,N/A,Completed independent Pytest evaluation; model claims sourced separately from agent logs
+Hard,Workflow A,primary,39,0,0,39,100.0,0.06,47,Yes,No,GPT-6.1-Sol,workflow_A_hard.txt,agent_activity_log_work_A_hard.txt,Completed independent Pytest evaluation; model claims sourced separately from agent logs
+Hard,Workflow B,primary,39,0,0,39,100.0,0.05,63,Yes,No,GPT-6.1-Sol,workflow_B_hard.txt,agent_activity_log_work_B_hard.txt,Completed independent Pytest evaluation; model claims sourced separately from agent logs
